@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prakhar Trivedi — Backend and Systems Developer portfolio.">
+  <title>Prakhar Trivedi | Backend & Systems Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a href="#home" class="brand"><span>&lt;</span>PT<span>/&gt;</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#interests">Interests</a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prakhartrivedi9369@gmail.com"
+         target="_blank"
+         rel="noopener noreferrer"
+      >Contact</a>
+    </nav>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prakhartrivedi9369@gmail.com"
+         target="_blank"
+         rel="noopener noreferrer" class="nav-cta">Let's connect <span>↗</span></a>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-grid"></div>
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span class="status-dot"></span> BUILDING SYSTEMS · LEARNING CONSTANTLY</div>
+        <h1>Building things<br>that <span>work.</span></h1>
+        <p class="hero-text">
+          I'm <strong>Prakhar Trivedi</strong>, a backend & systems-focused developer
+          who enjoys turning ideas into reliable software—from APIs and databases
+          to asynchronous pipelines and low-level internals.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore my work <span>↓</span></a>
+          <a href="#contact" class="btn btn-ghost">Get in touch <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="terminal-card reveal delay-2">
+        <div class="terminal-top">
+          <div class="terminal-dots"><i></i><i></i><i></i></div>
+          <span>~/prakhar/dev</span>
+          <span class="terminal-lock">●</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">prakhar@linux</span><span class="dim">:</span><span class="path">~/projects</span><span class="dim">$</span> ./build-trident</p>
+          <p class="success">✓ compiling backend...</p>
+          <p class="success">✓ connecting to MongoDB...</p>
+          <p class="success">✓ starting async log queue...</p>
+          <p class="success">✓ TRIDENT is running</p>
+          <p class="cursor-line"><span class="prompt">prakhar@linux</span><span class="dim">:</span><span class="path">~/projects</span><span class="dim">$</span> <span class="blink">█</span></p>
+        </div>
+      </div>
+
+      <div class="scroll-indicator"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-label reveal">01 / ABOUT</div>
+      <div class="about-grid">
+        <div class="section-heading reveal">
+          <p class="mini-title">WHO I AM</p>
+          <h2>Curious about<br><span>what's underneath.</span></h2>
+        </div>
+        <div class="about-copy reveal delay-1">
+          <p>
+            I'm a Computer Science student focused on <strong>backend engineering,
+            system internals, and cybersecurity</strong>. I like understanding how
+            software behaves beyond the surface—how requests move through a system,
+            how data is stored, how components communicate, and what happens when
+            things fail.
+          </p>
+          <p>
+            Most of my learning happens by building. My current work combines
+            <strong>C++17, Crow, MongoDB, SQLite, Redis, Linux and web technologies</strong>
+            into practical projects rather than isolated demos.
+          </p>
+          <div class="about-stats">
+            <div><strong>100+</strong><span>LeetCode<br>problems</span></div>
+            <div><strong>C++</strong><span>Primary<br>language</span></div>
+            <div><strong>Linux</strong><span>Daily<br>environment</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-label reveal">02 / TOOLBOX</div>
+      <div class="skills-heading reveal">
+        <p class="mini-title">WHAT I WORK WITH</p>
+        <h2>A toolbox built<br><span>through projects.</span></h2>
+      </div>
+
+      <div class="skill-groups">
+        <article class="skill-group reveal">
+          <div class="group-number">01</div>
+          <h3>Languages</h3>
+          <div class="tags">
+            <span>C++17</span><span>C</span><span>Python</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+          </div>
+        </article>
+        <article class="skill-group reveal delay-1">
+          <div class="group-number">02</div>
+          <h3>Backend & Data</h3>
+          <div class="tags">
+            <span>Crow</span><span>MongoDB</span><span>SQLite</span><span>Redis</span><span>REST APIs</span><span>JWT</span>
+          </div>
+        </article>
+        <article class="skill-group reveal delay-2">
+          <div class="group-number">03</div>
+          <h3>Systems & Tools</h3>
+          <div class="tags">
+            <span>Linux</span><span>Git</span><span>CMake</span><span>Threads</span><span>Async Queues</span><span>VS Code</span>
+          </div>
+        </article>
+        <article class="skill-group reveal">
+          <div class="group-number">04</div>
+          <h3>Security</h3>
+          <div class="tags">
+            <span>Argon2id</span><span>libsodium</span><span>OTP flows</span><span>Rate limiting</span><span>Auth systems</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-label reveal">03 / SELECTED WORK</div>
+      <div class="project-header reveal">
+        <div>
+          <p class="mini-title">THINGS I'VE BUILT</p>
+          <h2>Projects over<br><span>tutorials.</span></h2>
+        </div>
+        <p class="project-intro">A few projects where I have explored backend architecture, authentication, databases and system-level thinking.</p>
+      </div>
+
+      <article class="featured-project reveal">
+        <div class="project-top">
+          <div>
+            <span class="project-type">FEATURED PROJECT · 01</span>
+            <h3>TRIDENT</h3>
+            <p class="project-subtitle">Stock exchange web platform & backend system</p>
+          </div>
+          <span class="project-index">01</span>
+        </div>
+
+        <div class="project-body">
+          <div class="project-description">
+            <p>
+              A C++ backend project combining web APIs, authentication, databases,
+              Redis-based temporary state and an asynchronous audit logging pipeline.
+              The system is designed around separating request handling from durable
+              logging and database synchronization.
+            </p>
+            <div class="architecture">
+              <span>Client</span><b>→</b><span>Crow API</span><b>→</b><span>SQLite</span><b>→</b><span>Queue</span><b>→</b><span>MongoDB</span>
+            </div>
+          </div>
+          <div class="project-tech">
+            <span>C++17</span><span>Crow</span><span>MongoDB</span><span>SQLite</span><span>Redis</span><span>libcurl</span>
+            <span>Argon2id</span><span>HTML/CSS/JS</span>
+          </div>
+        </div>
+
+        <div class="project-footer">
+          <span class="status-pill"><i></i> In active development</span>
+          <a href="https://github.com/prakhartrivedi9369-bot/TRIDENT">View repository ↗</a>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="card-number">02</div>
+          <span class="project-type">WEB · SECURITY</span>
+          <h3>Guardian Mesh</h3>
+          <p>React + Vite frontend with an Express backend, MongoDB and JWT-based authentication.</p>
+          <div class="card-tags"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+          <a href="https://github.com/vinaysharma-pgr/GuardianMesh-AI">View project ↗</a>
+        </article>
+
+        <article class="project-card reveal delay-1">
+          <div class="card-number">03</div>
+          <span class="project-type">Frontend</span>
+          <h3>DSA-progress Tracker</h3>
+          <p>HTML,CSS and JavaScript</p>
+          <div class="card-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a href="https://github.com/prakhartrivedi9369-bot/DSA-progress-tracker">View details ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="interests" class="section interests">
+      <div class="section-label reveal">04 / DIRECTION</div>
+      <div class="interests-grid">
+        <div class="section-heading reveal">
+          <p class="mini-title">WHERE I'M HEADED</p>
+          <h2>Understand the system,<br><span>then build it better.</span></h2>
+        </div>
+        <div class="interest-list reveal delay-1">
+          <div class="interest-item"><span>01</span><div><h3>Backend Engineering</h3><p>APIs, data flow, concurrency and reliable services.</p></div></div>
+          <div class="interest-item"><span>02</span><div><h3>System Internals</h3><p>Low-level design, operating systems and how software interacts with hardware.</p></div></div>
+          <div class="interest-item"><span>03</span><div><h3>Cybersecurity</h3><p>Authentication, secure data handling and defensive engineering.</p></div></div>
+          <div class="interest-item"><span>04</span><div><h3>Open-ended Building</h3><p>Projects that force me to learn something I don't already know.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box reveal">
+        <div class="contact-decoration">&lt;/&gt;</div>
+        <p class="mini-title">05 / CONTACT</p>
+        <h2>Have something<br><span>worth building?</span></h2>
+        <p>I'm always interested in interesting software, backend problems, collaborations and opportunities to learn.</p>
+        <a class="btn btn-primary big-btn"
+           href="https://mail.google.com/mail/?view=cm&fs=1&to=prakhartrivedi9369@gmail.com"
+           target="_blank"
+           rel="noopener noreferrer"
+        >Say Hello</a>
+        <div class="socials">
+          <a href="https://github.com/prakhartrivedi9369-bot">GitHub</a>
+          <a href="https://in.linkedin.com/in/prakhar-trivedi">LinkedIn</a>
+          <a href="https://www.fiverr.com/prakharpower">Fiverr</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Prakhar Trivedi</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+  <script src="Script.js"></script>
+</body>
+</html>
